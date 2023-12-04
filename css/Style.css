@@ -4,6 +4,7 @@
   list-style-type: none !important;
   text-decoration: none !important;
   box-sizing: border-box !important;
+  scroll-behavior: smooth !important;
 }
 .page_logo {
   height: 90px;
