@@ -1,5 +1,5 @@
 /* FONT FAMILY LINK  */
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&family=Josefin+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 
 /* FONT FAMILY  */
 .ff_josefin {
@@ -7,6 +7,9 @@
 }
 .ff_playfair {
   font-family: "Playfair Display", serif;
+}
+.ff_chonburi {
+  font-family: "Chonburi", serif;
 }
 html,
 body {
@@ -20,8 +23,10 @@ body {
 }
 /* ROOT  */
 :root {
+  --fs-xsm: 12px;
   --fs-xs: 16px;
   --fs-sm: 18px;
+  --fs-2sm:20px;
   --fs-md: 24px;
   --fs-lg: 30px;
   --fs-xl: 36px;
@@ -30,14 +35,21 @@ body {
   --lightblack: #0f0f10;
   --greenblue: #27a099;
   --gray: #d9d9d9;
-  --darkgray:#595959;
+  --extragray:#3F3F46;
+  --darkgray: #595959;
 }
 /* FONT SIZE  */
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
 .fs_xs {
   font-size: var(--fs-xs);
 }
 .fs_sm {
   font-size: var(--fs-sm);
+}
+.fs_2sm {
+  font-size: var(--fs-2sm);
 }
 .fs_md {
   font-size: var(--fs-md);
@@ -67,6 +79,9 @@ body {
 }
 .color_darkgray {
   color: var(--darkgray);
+}
+.bg_extragray{
+  background-color: var(--extragray);
 }
 
 /* MEDIA SCREENS  */
