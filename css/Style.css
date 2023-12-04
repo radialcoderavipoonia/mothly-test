@@ -207,7 +207,7 @@
 }
 .cards_top_position_button:hover{
     border: 1px solid black !important;
-    background-color: transparent !important;
+    background-color: white !important;
     color: black !important;
     transition: all 0.3s ease-in !important;
 }
